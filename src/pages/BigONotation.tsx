@@ -1,7 +1,13 @@
 import { FC } from "react";
+import { Main } from "../components/Main";
+import { PageTitle } from "../components/PageTitle";
 
 const BigONotation: FC = () => {
-  return <div>BigONotation</div>;
+  return (
+    <Main>
+      <PageTitle title="Big O Notation" />
+    </Main>
+  );
 };
 
 export default BigONotation;
